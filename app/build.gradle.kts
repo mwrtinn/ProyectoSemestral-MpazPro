@@ -38,6 +38,11 @@ android {
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation("androidx.activity:activity-compose:1.10.0")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material3.window.size.class1)
     implementation(libs.androidx.compose.ui)
